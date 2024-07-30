@@ -481,8 +481,13 @@ namespace UnityEditor.ProBuilder
                 }
             }
 
-            if (selectMode == SelectMode.Object)
+            if (m_CurrentEvent.type == EventType.MouseDown && m_CurrentEvent.keyCode == KeyCode.Mouse2)
+            {
                 return;
+            }
+            
+            //if (selectMode == SelectMode.Object || selectMode == SelectMode.Face)
+                //return;
 
             bool pathSelectionModifier = EditorHandleUtility.IsSelectionPathModifier(m_CurrentEvent.modifiers);
 
