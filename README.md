@@ -2,7 +2,7 @@
 This fork is not currently maintained and may have bugs.
 Feel free to fork, however pull request or bug reports will not be answered.
 
-Currently 04/07/2024 this project does not compile and has active errors. We will get around to fixing them shortly.
+Currently 30/07/2024 project status is OK.
 
 # What's this?
 This is a clone of Probuilder 5.1.1 before they started f@ck!ng around with the probuilder window and associated menus.
