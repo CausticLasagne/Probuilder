@@ -16,14 +16,14 @@ namespace UnityEditor.ProBuilder
     static class FileUtility
     {
         // ProBuilder folder path.
-        static string s_ProBuilderFolderPath = "Packages/com.unity.probuilder/";
+        static string s_ProBuilderFolderPath = "Packages/com.twistedcoffeegames.probuilder/";
         static string s_ProBuilderDataPath = "Assets/ProBuilder Data/";
 
         // The order is important - always search for the package manager installed version first
         static readonly string[] k_PossibleInstallDirectories = new string[]
         {
-            "Packages/com.unity.probuilder/",
-            "UnityPackageManager/com.unity.probuilder/",
+            "Packages/com.twistedcoffeegames.probuilder/",
+            "UnityPackageManager/com.twistedcoffeegames.probuilder/",
             "Assets/",
         };
 
