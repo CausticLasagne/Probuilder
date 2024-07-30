@@ -481,7 +481,13 @@ namespace UnityEditor.ProBuilder
                 }
             }
 
-            if (m_CurrentEvent.type == EventType.MouseDown && m_CurrentEvent.keyCode == KeyCode.Mouse2)
+            if (m_CurrentEvent.type == EventType.MouseDown && (
+                    m_CurrentEvent.keyCode == KeyCode.Mouse1
+                    || m_CurrentEvent.keyCode == KeyCode.Mouse2
+                    || m_CurrentEvent.keyCode == KeyCode.Mouse3
+                    || m_CurrentEvent.keyCode == KeyCode.Mouse4
+                    || m_CurrentEvent.keyCode == KeyCode.Mouse5
+                    || m_CurrentEvent.keyCode == KeyCode.Mouse6))
             {
                 return;
             }
