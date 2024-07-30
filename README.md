@@ -1,8 +1,13 @@
-# Not maintained:
-This fork is not currently maintained and may have bugs.
+# Maintenence Status:
+This fork is reguarly maintained and is currently working on Unity 6000.0.12f1.
+Older versions of Unity should work and as Unity releases new versions of the editor, we'll ensure this package continues to function.
 Feel free to fork, however pull request or bug reports will not be answered.
 
-Currently 04/07/2024 this project does not compile and has active errors. We will get around to fixing them shortly.
+Currently 30/07/2024 project status is OK.
+
+# Note - Probuilder 6
+If you have created objects in Probuilder 6, they won't be compatible with this version since Probuilder 6 uses Burst which is a different scripting environment to Probuilder 5.
+Ensure you backup your scenes before switching Probuilder versions.
 
 # What's this?
 This is a clone of Probuilder 5.1.1 before they started f@ck!ng around with the probuilder window and associated menus.
