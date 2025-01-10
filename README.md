@@ -1,8 +1,9 @@
 # Maintenence Status:
-This fork is reguarly maintained and is currently working on Unity 6000.0.12f1.
+This fork is reguarly maintained and is currently working on Unity 6000.0.27f1.
 Older versions of Unity should work and as Unity releases new versions of the editor, we'll ensure this package continues to function.
 Feel free to fork, however pull request or bug reports will not be answered.
 
+Unity 6000.0.27f1. OK.
 Currently 30/07/2024 project status is OK.
 
 # Note - Probuilder 6
@@ -24,7 +25,7 @@ Summary of changes in ProBuilder package version 5.0.
 The main updates in this release include:
 
 Added  
-ProBuilder now supports a special modal "tool" mode for some features (the new Cut tool, and the refactored Shape and Poly Shape tools). Because of these changes, the other features that have a more immediate effect haven been rebranded "actions". For more information, see Tools vs. actions.  
+ProBuilder now supports a special modal "tool" mode for some features (the new Cut tool, and the refactored Shape and Poly Shape tools). Because of these changes, the other features that have a more immediate effect have been rebranded "actions". For more information, see Tools vs. actions.  
 Added a new Cut tool that allows you to add points on an existing face to define a new sub-face.  
 Added a new Selection X-Ray option to highlight hidden element selections with a muted color. The default shortcut is Ctrl/Alt+Shift+X (modifiable in the Shortcuts Manager), and you can also access it through the ProBuilder menu (Tools > ProBuilder > Interaction > Toggle X Ray).  
 Added a new preview selection for the Select Path action.  
