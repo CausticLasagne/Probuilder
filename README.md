@@ -1,10 +1,13 @@
+# Update Status:
+Starting from Unity 6.4, this package no longer works due to the deprecation of certain Unity code features used by this project. We will create a new version soon which contains all of the features of Probuilder 6, but with the probuilder 5 window.
+
 # Maintenence Status:
-This fork is reguarly maintained and is currently working on Unity 6000.0.27f1.
+This fork is reguarly maintained and is currently working on Unity 6000.1.17f1.
 Older versions of Unity should work and as Unity releases new versions of the editor, we'll ensure this package continues to function.
 Feel free to fork, however pull request or bug reports will not be answered.
 
-Unity 6000.0.27f1. OK.
-Currently 30/07/2024 project status is OK.
+Unity 6000.1.17f1. OK.
+Currently 18/04/2026 project status is OK.
 
 # Note - Probuilder 6
 If you have created objects in Probuilder 6, they won't be compatible with this version since Probuilder 6 uses Burst which is a different scripting environment to Probuilder 5.
