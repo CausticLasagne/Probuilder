@@ -48,7 +48,9 @@
       "path": "Samples~/Runtime"
     }
   ],
-  "dependencies": {},
+  "dependencies": {
+    "com.unity.settings-manager": "2.1.1"
+  },
   "relatedPackages": {},
   "upmCi": {
     "footprint": "34031fe19aed7822adbc883b0f3d4c979cd9eab1"
